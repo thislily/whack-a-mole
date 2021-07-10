@@ -9,7 +9,7 @@ font-family: 'Racing Sans One', cursive;
 }
 
 body {
-    background-color: hsl(0, 73%, 96%);
+    background-color: hsl(0, 60%, 90%);
 }
 
 h1, h2, h3{
@@ -20,6 +20,8 @@ h1, h2, h3{
 #button-box {
     display: flex;
     justify-content: center;
+    width: 618px;
+    margin: auto;
 }
 
 #score-box{
@@ -36,12 +38,21 @@ h2, h3, button{
     font-family: 'Encode Sans Semi Condensed', sans-serif;
 }
 
+#game-end {
+    font-size: 4rem;
+    font-family: 'Racing Sans One', cursive;
+    color: hsl(160, 60%, 60%);
+    -webkit-text-fill-color: hsl(160, 60%, 60%); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+}
+
 button{
-    background-color: rgb(200, 230, 240);
+    background-color: hsl(200, 60%, 90%);
     padding: 20px;
     font-size: 2rem;
     box-shadow: none;
-    border: 2px solid black;
+    border: 2px dotted black;
 }
 
 

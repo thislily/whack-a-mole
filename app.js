@@ -3,6 +3,8 @@ const mole = document.querySelectorAll('.mole')
 const timeLeft = document.querySelector('#time-left')
 let score = document.querySelector('#score')
 const play = document.querySelector('#play')
+let gameEnd = document.querySelector('#game-end')
+let scoreBox = document.querySelector('#score-box')
 
 let result = 0
 let hitPosition
@@ -50,7 +52,8 @@ function countDown() {
     if (currentTime === 0) {
         clearInterval(countDownTimerId)
         clearInterval(timerId)
-        alert('GAME OVER! Your final score is: ' + result )
+        gameEnd.textContent = 'Game Over! Your score was: ' + result
+        scoreBox.style.visibility = 'hidden'
     }
 }
 
