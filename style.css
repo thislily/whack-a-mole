@@ -1,0 +1,69 @@
+/*
+font-family: 'Encode Sans Semi Condensed', sans-serif;
+font-family: 'Racing Sans One', cursive;
+*/
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 73%, 96%);
+}
+
+h1, h2, h3{
+    margin: 25px auto;
+    text-align: center;
+}
+
+#button-box {
+    display: flex;
+    justify-content: center;
+}
+
+#score-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: 'Racing Sans One', cursive;
+    font-size: 5rem;
+}
+
+h2, h3, button{
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+}
+
+button{
+    background-color: rgb(200, 230, 240);
+    padding: 20px;
+    font-size: 2rem;
+    box-shadow: none;
+    border: 2px solid black;
+}
+
+
+.square{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 1px;
+    background-color: white;
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px;
+    margin: auto;
+}
+
+.mole {
+    background-image: url(cool-mole.jpg);
+    background-size: cover;
+}
