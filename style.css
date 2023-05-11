@@ -13,7 +13,7 @@ body {
 }
 
 h1, h2, h3{
-    margin: 25px auto;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -43,7 +43,7 @@ h2, h3, button{
     font-family: 'Racing Sans One', cursive;
     color: hsl(160, 60%, 60%);
     -webkit-text-fill-color: hsl(160, 60%, 60%); /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
 
