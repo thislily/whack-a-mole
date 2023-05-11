@@ -31,7 +31,7 @@ h1, h2, h3{
 
 h1 {
     font-family: 'Racing Sans One', cursive;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 h2, h3, button{
@@ -39,7 +39,7 @@ h2, h3, button{
 }
 
 #game-end {
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: 'Racing Sans One', cursive;
     color: hsl(160, 60%, 60%);
     -webkit-text-fill-color: hsl(160, 60%, 60%); /* Will override color (regardless of order) */
